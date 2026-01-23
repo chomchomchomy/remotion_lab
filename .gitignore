@@ -1,0 +1,14 @@
+node_modules
+out
+.DS_Store
+.env
+*.mp4
+*.wav
+*.mp3
+!public/malama_bgm.mp3
+!public/malama_bgm_short.mp3
+!public/law_of_attraction_intro.wav
+!public/law_of_attraction_top3.wav
+!public/law_of_attraction_top2.wav
+!public/law_of_attraction_top1.wav
+!public/law_of_attraction_outro.wav

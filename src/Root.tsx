@@ -6,6 +6,7 @@ import { CodingVideo } from './CodingVideo';
 import { Cinematic3DVideo } from './Cinematic3DVideo';
 import { RealEstateVideo } from './RealEstateVideo';
 import { MalamaManifest } from './MalamaManifest';
+import { SBNRVideo } from './SBNRVideo';
 
 export const RemotionRoot: React.FC = () => {
     return (
@@ -62,6 +63,14 @@ export const RemotionRoot: React.FC = () => {
                 id="MalamaManifest"
                 component={MalamaManifest}
                 durationInFrames={1260} // 42 seconds
+                fps={30}
+                width={1080}
+                height={1920}
+            />
+            <Composition
+                id="SBNRVideo"
+                component={SBNRVideo}
+                durationInFrames={1425}
                 fps={30}
                 width={1080}
                 height={1920}
